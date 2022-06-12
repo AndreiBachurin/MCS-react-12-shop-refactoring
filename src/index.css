@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+.text-2xl {
+  font-size: 1.5rem/* 24px */;
+  line-height: 2rem/* 32px */;
+}
+
+.text-lg {
+  font-size: 1.125rem/* 18px */;
+  line-height: 1.75rem/* 28px */;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.ml-5 {
+  margin-left: 1.25rem/* 20px */;
+}
+
+.mt-8 {
+  margin-top: 2rem/* 32px */;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem/* 20px */;
+}
+
+.m-3 {
+  margin: 0.75rem/* 12px */;
+}
